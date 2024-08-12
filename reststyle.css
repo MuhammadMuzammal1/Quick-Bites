@@ -1,0 +1,193 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #333333; 
+  color: #ffffff; 
+}
+
+
+header {
+  background-color: #444444; 
+}
+
+.nav-link {
+  color: #ffffff; 
+}
+
+.nav-link.active {
+  color: #f39c12; 
+}
+
+.btn-warning {
+  background-color: #f39c12; 
+  border-color: #f39c12;
+  color: #ffffff; /
+}
+
+.btn-warning:hover {
+  background-color: #e67e22; 
+  border-color: #e67e22;
+}
+
+
+.section-1 {
+  background-color: #444444; 
+}
+
+.menu {
+  background-color: #333333; 
+  color: #ffffff; 
+}
+
+.menu a{
+  color: white;
+}
+
+.menu a:hover{
+  color: rgb(255, 187, 0);
+}
+
+footer {
+  background-color: #444444; 
+  color: #ffffff; 
+}
+
+footer h5 {
+  color: #f39c12; 
+}
+
+footer p {
+  color: #cccccc; 
+}
+footer a {
+  color: #f39c12; 
+}
+
+footer a:hover {
+  color: #e67e22; 
+}
+
+
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.nav-link:hover,
+.nav-link:focus {
+  color: rgb(255, 187, 0);
+  text-decoration: underline;
+}
+
+
+.section-1 {
+  margin-top: 20px;
+}
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  padding: 40px 0;
+  background-color: azure;
+}
+
+.about h1 {
+  margin-bottom: 30px;
+}
+
+.about .img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.description{
+  border: 1px solid black;
+  background-color: rgb(237, 232, 226);
+  margin-bottom: 5px;
+}
+.description p{
+  color: rgb(26, 21, 6);
+  font-family: cursive;
+}
+
+.timebtn{
+  max-width: 100%;
+  height: auto;
+}
+.timebtn button{
+  background-color: rgb(255, 187, 0);
+  color: black;
+  border: 1px;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+.timebtn button:hover,
+.timebtn button:focus{
+  background-color: black;
+  color: rgb(255, 187, 0);
+}
+@media (max-width: 992px) {
+  .logo a {
+    font-size: 1.5rem;
+  }
+  .search {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .about .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .about .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-1 .text-lg-start {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .section-1 .img-fluid {
+    width: 100%;
+    max-width: 300px;
+  }
+}
